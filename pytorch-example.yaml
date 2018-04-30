@@ -13,8 +13,8 @@ spec:
         nvidia.com/gpu: 2
     volumeMounts:
     - mountPath: /examples
-      name: tensor-examples
+      name: pytorch-examples
   volumes:
-    - name: tensor-examples
+    - name: pytorch-examples
       gitRepo:
         repository: "https://github.com/tensorflow/models.git"
